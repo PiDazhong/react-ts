@@ -75,9 +75,9 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "start": "node config/start.js",
+    "build": "node config/build.js",
+    "test": "node config/test.js"
   },
   "eslintConfig": {
     "extends": [
@@ -153,5 +153,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.13.0"
   }
 }
